@@ -175,6 +175,7 @@ export class Dialog extends LitElement {
       aria-labelledby="header"
       aria-describedby="content"
     >
+      <slot name="dialog_content_slot></slot>
       <div class="container">
         <md-elevation></md-elevation>
         <header class="header">
